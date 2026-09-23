@@ -44,6 +44,10 @@ Architecture, technology choices, module responsibilities, technical flows, prod
 
 Production source code, proprietary business logic, Rate Engine implementation, internal prompts, customer data, credentials, tokens, webhook secrets and provider-specific production configuration.
 
+## Portfolio case
+
+[Open the full public case](https://mateus-nascimento-dev.lovable.app/projetos/alrya)
+
 ## Author
 
 Mateus Nascimento dos Santos · [GitHub](https://github.com/matteusnascimento)
