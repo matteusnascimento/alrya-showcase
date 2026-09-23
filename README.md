@@ -44,6 +44,18 @@ Architecture, technology choices, module responsibilities, technical flows, prod
 
 Production source code, proprietary business logic, Rate Engine implementation, internal prompts, customer data, credentials, tokens, webhook secrets and provider-specific production configuration.
 
+## Code samples
+
+The `examples/` directory contains **sanitized, representative code written specifically for public evaluation**. It mirrors engineering concerns from the product—tenant isolation, permission checks, API boundaries, typed frontend access and tests—without copying the production implementation.
+
+- [Examples overview](examples/README.md)
+- [Tenant-aware domain service](examples/backend/domain.py)
+- [FastAPI adapter](examples/backend/app.py)
+- [Backend tests](examples/backend/test_tenant_access.py)
+- [Typed frontend client](examples/frontend/revenue-client.ts)
+
+These samples use synthetic names, data and endpoints. They are not a deployable copy of ALRYA.
+
 ## Portfolio case
 
 [Open the full public case](https://mateus-nascimento-dev.lovable.app/projetos/alrya)
